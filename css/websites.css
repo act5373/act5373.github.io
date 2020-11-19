@@ -1,0 +1,58 @@
+main
+{
+    flex-direction: column;
+}
+
+a
+{
+    padding: 16px 12px;
+    border: #048 thin solid;
+    color: #048;
+
+    transition: background-color 0.5s;
+}
+
+a:hover
+{
+    color: white;
+    background-color: #048;
+}
+
+.thinger
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.thinger div
+{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.thinger div div
+{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+.f1
+{
+    flex: 1;
+}
+
+.f5
+{
+    flex: 5;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <style>
+            label
+            {
+                font-size: 1.3em;
+            }
+
+            input
+            {
+                font-size: 1.3em;
+                padding: 16px 12px;
+                width: 90%;
+            }
+
+            select
+            {
+                padding: 16px 12px;
+                width: 90%;
+                font-size: 1.3em;
+            }
+
+            input[type="submit"]
+            {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <main>
+                <div style="flex: 1; align-content: center;">
+                    <h1>Request Carpool</h1>
+                    <form action="/">
+                        <label for="pickup">Pick Up Location</label>
+                        <input required type="text" name="pickup">
+                        <label for="dest">Destination</label>
+                        <select required id="cars" name="dest">
+                            <option value="1">State Board of Elections</option> <!--https://www.vote.org/polling-place-locator/-->
+                        </select>
+                        <label for="driver">Destination</label>
+                        <select required id="drivers" name="driver">
+                            <option value="1">John Smith</option>
+                            <option value="2">Doug Dimmadome</option>
+                            <option value="3">Maddie Smith</option>
+                        </select>
+
+                        <input type="submit" value="Request">
+                    </form>
+                </div>
+                <div style="border-radius: 50%; background-repeat: no-repeat; background-size: cover; border: black solid thick; align-self: center; height: 50%; background-size: 100%; background-image: url('https://lh4.googleusercontent.com/Ct_u7FqtiOADXa7rwqrtZxyKqq4IxuSSfreEUoRHQhzL0pXTNHnL_bDd3Yc4UDXu7eUCYdjCRoKbK9u_ZyQE8EIdWRyrbFbE0uUPj7H3Mml25TosN5ToHIT426oks_VrxFkVCTHhYsM '); flex: 1;">
+                    
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

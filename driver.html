@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <style>
+            label
+            {
+                font-size: 1.3em;
+            }
+
+            input
+            {
+                font-size: 1.3em;
+                padding: 16px 12px;
+                width: 95%;
+            }
+
+            input[type="checkbox"]
+            {
+                width: 100%;
+            }
+
+            select
+            {
+                padding: 16px 12px;
+                width: 90%;
+                font-size: 1.3em;
+            }
+
+            input[type="submit"]
+            {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <main>
+                <div style="flex: 1; align-content: center;">
+                    <h1>Sign Up to Drive</h1>
+                    <form action="/">
+                        <label for="name">Name</label>
+                        <input required type="text" name="name">
+                        <label for="car">Description of Your Car</label>
+                        <input required type="text" name="car">
+                        <label for="phone">Phone Number</label>
+                        <input required type="number" name="phone">
+                        <label for="car">I agree to be a safe driver and abide by all road laws in my state.</label>
+                        <input required type="checkbox">
+                        <label for="car">I agree to have my background checked.</label>
+                        <input required type="checkbox">
+
+                        <input type="submit" value="Request">
+                        <a href="/" style="padding: 16px 12px; width: 90%; text-align: center; display: inline-block; border: #048 thin solid; margin-top: 10px;">Cancel</a>
+                    </form>
+                </div>
+                <div style="border-radius: 50%; background-repeat: no-repeat; background-size: cover; border: black solid thick; align-self: center; height: 50%; background-image: url('https://lh6.googleusercontent.com/119l88Q4Vkchzh0clY2ciSk-wRnCVdlzHpEKmLzQTjoemZosLIhsSI-zVPxAjncFoT2NWKK-tKtxDOeE8kliWilEPd25twUktHt8iIts31Ds8m8fsGFHaOo-NQEDT9aupZ9LxtnFcGo'); flex: 1;">
+                    
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
